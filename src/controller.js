@@ -38,7 +38,7 @@
 			this.moved = true;
 
 			this.lastMoveTime = new Date().getTime();
-			this.flow.update(this.currentX);
+			this.flow.update(this.currentX*this.config.speed);
 		} else {
 			window.removeEventListener("touchmove", this, true);
 			window.removeEventListener("touchend", this, true);	

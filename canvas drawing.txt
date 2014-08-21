@@ -1,0 +1,8 @@
+<canvas id="e" width="600" height="200"></canvas>
+<script>
+  var canvas = document.getElementById("e");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "lightgrey";
+  context.font = "144px Arial";
+  context.fillText(["\u0905", "\u0928\u093E", "\u0930"].join(""), 100, 100);
+</script>

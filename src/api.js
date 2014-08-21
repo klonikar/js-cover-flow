@@ -46,7 +46,8 @@
 				framerate:				60,
 				mousewheel:				true,
 				x:						0,
-				y:						0
+				y:						0,
+				speed:					1.0
 			};
 
 			this.events = {

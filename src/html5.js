@@ -76,6 +76,7 @@
 			e.preventDefault();
 			
 			var delta = e.detail ? e.detail * (-120) : e.wheelDelta;
+			delta = delta*config.speed;
 			var count = Math.ceil(Math.abs(delta) / 120);
 			if (count > 0) {
 				var sign = Math.abs(delta) / delta;
